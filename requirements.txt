@@ -7,3 +7,4 @@ pyttsx3
 SpeechRecognition
 moviepy
 tensorflow-cpu
+gunicorn==20.1.0
