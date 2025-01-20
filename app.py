@@ -13,8 +13,6 @@ import pyttsx3
 import speech_recognition as sr
 import atexit
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-warnings.filterwarnings("ignore")
 
 # Ensure the video capture is released and windows are destroyed on exit
 def cleanup():
